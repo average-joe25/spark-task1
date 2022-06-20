@@ -1,0 +1,22 @@
+.transaction-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 1rem;
+}
+
+.sender-input,
+.receiver-input,
+.money-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tran-div {
+  margin: 10px 5px;
+}
