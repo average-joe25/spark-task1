@@ -1,0 +1,8 @@
+.is-hover:hover {
+    cursor: pointer;
+    color: #209cee;
+}
+
+.loading_div {
+    background-image: url("./public_image/Bank1.jpg")
+}
