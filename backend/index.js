@@ -7,7 +7,7 @@ const bankingRoutes = require("./routes/banking.route");
 const app = express();
 dotenv.config();
 
-const PORT = process.env.PORT || 8082;
+const PORT = process.env.PORT;
 
 const DB_URI = process.env.MONGO_URI;
 
